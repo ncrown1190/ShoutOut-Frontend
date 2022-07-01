@@ -12,9 +12,15 @@ export default function ShoutoutList({ shoutouts }: Props) {
         {shoutouts.map((shoutout, index) => {
           return (
             <li className="list" key={index}>
-              <p>Shoutout To:{shoutout.to}</p>
-              <p>Shoutout From:{shoutout.from}</p>
-              <p>Shoutout:{shoutout.shoutout}</p>
+              <p>
+                <h3> Shoutout To:{shoutout.to}</h3>
+              </p>
+              <p>
+                <h5>Shoutout From:{shoutout.from}</h5>
+              </p>
+              <p>
+                <h4> Shoutout:{shoutout.shoutout}</h4>
+              </p>
             </li>
           );
         })}

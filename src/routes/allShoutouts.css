@@ -7,8 +7,9 @@ h1 {
   border: 1px solid #aaa;
   display: flex;
   flex-direction: column;
-  margin: 15px;
+  margin: 0px 30px 30px 30px;
   padding: 15px;
+
   /* width: 200px; */
 }
 .form h3 {
@@ -21,11 +22,14 @@ label {
 .btn {
   width: 200px;
   margin-top: 10px;
+  border-radius: 5px;
 }
 textarea {
   /* width: 400px; */
-  height: 150px;
+  height: 100px;
+  border-radius: 5px;
 }
 input {
   width: 200px;
+  border-radius: 5px;
 }
